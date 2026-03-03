@@ -76,6 +76,32 @@
           <span id="jobs-count-label" class="text-sm text-gray-500">8 of 8 jobs</span>
         </div>
 
+                <!-- TABS -->
+        <div class="flex gap-2 mb-5" id="tabs-container">
+          <button id="tab-all"
+            data-tab="all"
+            class="px-4 py-1.5 rounded-md text-sm font-medium bg-blue-600 text-white border-0 cursor-pointer transition-colors duration-150">
+            All
+          </button>
+          <button id="tab-interview"
+            data-tab="interview"
+            class="px-4 py-1.5 rounded-md text-sm font-medium text-gray-600 bg-transparent border-0 cursor-pointer hover:bg-gray-100 transition-colors duration-150">
+            Interview
+          </button>
+          <button id="tab-rejected"
+            data-tab="rejected"
+            class="px-4 py-1.5 rounded-md text-sm font-medium text-gray-600 bg-transparent border-0 cursor-pointer hover:bg-gray-100 transition-colors duration-150">
+            Rejected
+          </button>
+        </div>
+
+        <!-- JOB CARDS CONTAINER -->
+        <div id="jobs-container"></div>
+
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="./js/index.js"></script>
     
 </body>
 </html>
